@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+.banner {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.494),
+      rgba(0, 0, 0, 0.494),
+      rgba(0, 0, 0, 0.494)
+    ),
+    url(/images/banner.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+.banner-content {
+  position: relative;
+  top: 150px;
+  left: 100px;
+}
+.security-production {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.secur-icon {
+  display: flex;
+  align-items: center;
+}
+.secur-icon i {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px;
+}
+.one {
+  margin: 10px;
+  width: 250px;
+  text-align: justify;
+}
+.one p {
+  text-indent: 0.5in;
+}
+.industry h2 {
+  font-weight: bold;
+}
+.industry-icons {
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.industry-icons .icon {
+  width: 30%;
+  margin: 50px 20px;
+  font-size: 1rem;
+}
+.industry-icons .icon i {
+  font-weight: bold;
+  padding-left: 20px;
+  margin-right: 5px;
+  font-size: 2rem;
+}
